@@ -10,9 +10,12 @@ function App() {
   const [selected, setSelected] = useState(0);
   const [showRightPanel, setShowRightPanel] = useState(true);
 
-  function handleWindowSizeChange() {
-    setShowRightPanel(window.innerWidth > MOBILE_VIEWPORT_WIDTH);
-  }
+  const handleWindowSizeChange = () => {
+    const shouldShowRightPanel =
+      window.innerWidth > MOBILE_VIEWPORT_WIDTH && // If web view
+      window.innerWidth > window.innerHeight; // If landscape orientation
+    setShowRightPanel(shouldShowRightPanel);
+  };
   useEffect(() => {
     window.addEventListener("resize", handleWindowSizeChange);
     return () => {
