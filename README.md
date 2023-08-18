@@ -4,6 +4,9 @@ This is a React frontend app replicating the design and display of the job listi
 
 Click [here](https://nodeflair-fe-git-main-tanchinkiat99.vercel.app/) to view the app.
 
+<img width="706" alt="image" src="https://github.com/tanchinkiat99/nodeflair-fe/assets/77952047/1d288e2e-8828-4cdc-b996-4a7f930e9605">
+_Screenshot of home page_
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
