@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Nodeflair Frontend
+
+This is a React frontend app replicating the design and display of the job listings on [NodeFlair Jobs](nodeflair.com/jobs).
+
+Click [here](https://nodeflair-fe-git-main-tanchinkiat99.vercel.app/) to view the app.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
