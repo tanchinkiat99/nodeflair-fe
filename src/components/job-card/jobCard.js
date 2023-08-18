@@ -3,17 +3,21 @@ import { FaLocationDot } from "react-icons/fa6";
 import "./jobCard.css";
 
 function JobCard({ data, selected, handleOnClick }) {
+  const getCardStyles = () => {
+    return [
+      {
+        borderRadius: "12px",
+        transition: "box-shadow 0.3s ease, transform 0.3s ease",
+      },
+      selected && { borderColor: "#04b541", borderWidth: "4px" },
+    ];
+  };
+
   return (
     <Card
       className="card"
       variant="outlined"
-      sx={[
-        { borderRadius: "12px" },
-        selected && { borderColor: "#04b541", borderWidth: "3px" },
-      ]}
-      onMouseOver={() => {
-        console.log("mousing over");
-      }}
+      sx={getCardStyles()}
       onClick={handleOnClick}
     >
       <div className="top">

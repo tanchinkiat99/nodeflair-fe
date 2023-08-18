@@ -1,5 +1,6 @@
 import "./App.css";
 import JobCard from "./components/job-card/jobCard";
+import JobTitle from "./components/job-title/jobTitle";
 import jobData from "./data/job_data.json";
 import { useState } from "react";
 
@@ -18,10 +19,13 @@ function App() {
       );
     });
   };
-
+  console.log(window.innerWidth);
   return (
     <div className="root">
-      <div className="left-column">{renderJobCards()}</div>;
+      <div className="left-column">{renderJobCards()}</div>
+      <div className="right-column">
+        <JobTitle title={jobData[selected].title} />
+      </div>
     </div>
   );
 }

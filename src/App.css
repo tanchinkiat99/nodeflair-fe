@@ -1,13 +1,18 @@
 .root {
   display: flex;
   flex: 1;
+  background-color: #edf0ee;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
 }
 .left-column {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  background-color: grey;
-  gap: 5px;
+  gap: 8px;
+}
+.right-column {
+  display: flex;
 }

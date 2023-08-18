@@ -11,7 +11,7 @@
   },
   {
     "company": "Grab",
-    "photo_url": "https://nodeflair.com/companies/12601.png",
+    "photo_url": "https://nodeflair.com/companies/168.png",
     "rating": 3.8,
     "title": "Backend Software Engineer (GrabAd Infrastructure)",
     "posted": "2 minutes ago",
@@ -21,7 +21,7 @@
   },
   {
     "company": "Tiktok",
-    "photo_url": "https://nodeflair.com/companies/12601.png",
+    "photo_url": "https://nodeflair.com/companies/240.png",
     "rating": 3.8,
     "title": "Fullstack Software Engineer",
     "posted": "1 day ago",
@@ -31,7 +31,7 @@
   },
   {
     "company": "Meta",
-    "photo_url": "https://nodeflair.com/companies/12601.png",
+    "photo_url": "https://nodeflair.com/companies/348.png",
     "rating": 3.8,
     "title": "DevOps Engineer",
     "posted": "2 days ago",
@@ -40,8 +40,8 @@
     "tags": ["DevOps"]
   },
   {
-    "company": "Jane Street",
-    "photo_url": "https://nodeflair.com/companies/12601.png",
+    "company": "Shopee",
+    "photo_url": "https://nodeflair.com/companies/47.png",
     "rating": 3.8,
     "title": "Quantitative Engineer",
     "posted": "3 days ago",
@@ -50,8 +50,8 @@
     "tags": ["Quantitative", "Research"]
   },
   {
-    "company": "NodeFlair",
-    "photo_url": "https://nodeflair.com/companies/12601.png",
+    "company": "ShopBack",
+    "photo_url": "https://nodeflair.com/companies/5.png",
     "rating": 3.8,
     "title": "Fullstack Software Engineer Intern",
     "posted": "5 days ago",
