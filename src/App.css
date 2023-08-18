@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  flex: 1;
+}
+.left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: grey;
+  gap: 5px;
+}
